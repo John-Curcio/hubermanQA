@@ -1,0 +1,17 @@
+name: langchain
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - tqdm
+  - pip
+  - pip:
+    - langchain
+    - openai
+    - google-search-results
+    - chromadb
+    - tiktoken
